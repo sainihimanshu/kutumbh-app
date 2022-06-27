@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start1": "ts-node-dev --respawn --transpile-only server.ts",
     "build": "rm -rf dist/ && tsc && node ./dist/server.js",
     "start": "ts-node-dev --files server.ts"
   },
